@@ -113,6 +113,5 @@ Version-Overrides:
          - python-3.3
          - web_proxy
 
-
-
+Install-Build-Required: false
 Source-Url: git@github.com:xiama/pythoncartri.git
