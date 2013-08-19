@@ -114,5 +114,5 @@ Version-Overrides:
          - web_proxy
 
 Install-Build-Required: false
-Source-Url: git://github.com/xiama/pythoncartri.git
+Source-Url: https://github.com/xiama/pythoncartri.git
 #Source-Url: git@github.com:xiama/pythoncartri.git #wron configure
