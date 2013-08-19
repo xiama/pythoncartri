@@ -8,7 +8,7 @@ License: "The Python License, version 2.6"
 License-Url: http://docs.python.org/3/license.html
 Vendor: python.org
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: redhat
+Cartridge-Vendor: xiama
 Categories:
   - service
   - python
@@ -76,6 +76,7 @@ Group-Overrides:
   - components:
     - python-2.6
     - web_proxy
+    - xiaoM-python-2.6
 Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: PORT
@@ -111,3 +112,7 @@ Version-Overrides:
        - components:
          - python-3.3
          - web_proxy
+
+
+
+Source-Url: git@github.com:xiama/pythoncartri.git
