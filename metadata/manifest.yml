@@ -70,8 +70,8 @@ Subscribes:
     Type: "STRING:urlpath"
     Required : false
 Scaling:
-  Min: 1
-  Max: -1
+  Min: 2
+  Max: 2
 Group-Overrides:
   - components:
     - python-2.6
@@ -115,6 +115,6 @@ Version-Overrides:
 
 Install-Build-Required: false
 
-Source-Url: file:///root/pythoncartri/
-#Source-Url: https://github.com/xiama/pythoncartri.git
+#Source-Url: file:///root/pythoncartri/
+Source-Url: https://github.com/xiama/pythoncartri.git
 #Source-Url: git@github.com:xiama/pythoncartri.git #wron configure
