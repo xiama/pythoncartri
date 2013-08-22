@@ -71,7 +71,7 @@ Subscribes:
     Required : false
 Scaling:
   Min: 2
-  Max: 3
+  Max: 4
 Group-Overrides:
   - components:
     - python-2.6
