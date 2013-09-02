@@ -116,5 +116,6 @@ Version-Overrides:
 Install-Build-Required: false
 
 #Source-Url: file:///root/pythoncartri/
-Source-Url: https://github.com/xiama/pythoncartri.git
+#Source-Url: https://github.com/xiama/pythoncartri.git
+Source-Url: http://github.com/xiama/pythoncartri/raw/master/python.tar
 #Source-Url: git@github.com:xiama/pythoncartri.git #wron configure
