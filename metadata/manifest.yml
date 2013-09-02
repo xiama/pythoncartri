@@ -82,6 +82,7 @@ Endpoints:
     Private-Port-Name: PORT
     Private-Port:      8080
     Public-Port-Name:  PROXY_PORT
+    WebSocket-Port:      8676
     Mappings:
       - Frontend:      ""
         Backend:       ""
@@ -115,8 +116,8 @@ Version-Overrides:
 
 Install-Build-Required: false
 
-Source-Url: file:////root/testpython/
-#Source-Url: https://github.com/xiama/pythoncartri.git
+#Source-Url: file:////root/testpython/
+Source-Url: https://github.com/xiama/pythoncartri.git
 #Source-Url: https://raw.github.com/xiama/pythoncartri/master/python.tar
 #Source-Url: https://github.com/xiama/pythoncartri/raw/master/python.tar
 #Source-Url: git@github.com:xiama/pythoncartri.git #wron configure
