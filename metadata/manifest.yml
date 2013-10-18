@@ -8,7 +8,7 @@ License: "The Python License, version 2.6"
 License-Url: http://docs.python.org/3/license.html
 Vendor: python.org
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: 22_xiama
+Cartridge-Vendor: xiama
 Categories:
   - service
   - python
