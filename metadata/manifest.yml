@@ -78,15 +78,16 @@ Group-Overrides:
     - web_proxy
     - xiaoM-python-2.6
 Endpoints:
-  - Private-IP-Name:   IP
-    Private-Port-Name: PORT
-    Private-Port:      8080
-    Public-Port-Name:  PROXY_PORT
+  - Private-IP-Name:   SSL_IP
+    Private-Port-Name: SSL_PORT
+    Private-Port:      8443
+    Public-Port-Name:  SSL_PROXY_PORT
     WebSocket-Port-Name: WEBSOCKET_PORT
     WebSocket-Port:      8676
     Mappings:
       - Frontend:      ""
         Backend:       ""
+        Options:       { "ssl_to_gear": true }
         Options:       { websocket: true }
       - Frontend:      "/health"
         Backend:       ""
