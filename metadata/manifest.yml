@@ -84,15 +84,15 @@ Endpoints:
     Public-Port-Name:  PROXY_PORT
     WebSocket-Port-Name: WEBSOCKET_PORT
     WebSocket-Port:      8676
-    -Private-IP-Name:   SSL_IP
-  Private-Port-Name: SSL_PORT
-  Private-Port:      8443
-  Public-Port-Name:  SSL_PROXY_PORT
+    Private-IP-Name:   SSL_IP
+    Private-Port-Name: SSL_PORT
+    Private-Port:      8443
+    Public-Port-Name:  SSL_PROXY_PORT
     Mappings:
       - Frontend:      ""
         Backend:       ""
         Options:       { websocket: true }
-        Options:       { "ssl_to_gear": true }
+        Options:       { ssl_to_gear: true }
       - Frontend:      "/health"
         Backend:       ""
         Options:       { health: true }
