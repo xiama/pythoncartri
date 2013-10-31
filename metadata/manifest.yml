@@ -92,7 +92,7 @@ Endpoints:
       - Frontend:      ""
         Backend:       ""
         Options:       { websocket: true }
-        Options:       { ssl_to_gear: true }
+        #Options:       { ssl_to_gear: true }
       - Frontend:      "/health"
         Backend:       ""
         Options:       { health: true }
