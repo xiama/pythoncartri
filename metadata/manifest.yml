@@ -93,7 +93,7 @@ Endpoints:
       - Frontend:      ""
         Backend:       ""
         Options:       { websocket: true }
-      - Frontend:      "/health"
+      - Frontend:      "health"
         Backend:       ""
         Options:       { health: true }
 Version-Overrides:
