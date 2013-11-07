@@ -70,8 +70,8 @@ Subscribes:
     Type: "STRING:urlpath"
     Required : false
 Scaling:
-  Min: 1
-  Max: -1
+  Min: 2
+  Max: 4
 Group-Overrides:
   - components:
     - python-2.6
