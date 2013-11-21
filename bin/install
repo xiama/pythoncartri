@@ -9,7 +9,10 @@ case "$1" in
 esac
 
 echo "$version" > "$OPENSHIFT_PYTHON_DIR/env/OPENSHIFT_PYTHON_VERSION"
-
+echo "==========================="
+echo "==========================="
+echo "==========================="
+echo "&#44592;&#51088;&#36789;"
 update-configuration $version
 mkdir -p $OPENSHIFT_PYTHON_DIR/template
 # Call the version specific setup script
