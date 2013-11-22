@@ -8,7 +8,7 @@ License: "The Python License, version 2.6"
 License-Url: http://docs.python.org/3/license.html
 Vendor: python.org
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: ora
+Cartridge-Vendor: ora-
 Categories:
   - service
   - python
