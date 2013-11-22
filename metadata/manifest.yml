@@ -123,7 +123,8 @@ Version-Overrides:
 Install-Build-Required: false
 
 #Source-Url: file:////root/python/
-Source-Url: https://github.com/xiama/pythoncartri.git
+#Source-Url: https://github.com/xiama/pythoncartri.git
+Source-Url: git://github.com/xiama/pythoncartri.git
 #Source-Url: https://raw.github.com/xiama/pythoncartri/master/python.tar
 #Source-Url: https://raw.github.com/xiama/pythoncartri/master/pyti1hon.zip
 #Source-Url: https://raw.github.com/xiama/pythoncartri/master/python99.tar.gz
