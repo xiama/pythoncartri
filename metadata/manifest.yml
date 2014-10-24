@@ -70,7 +70,7 @@ Subscribes:
     Type: "STRING:urlpath"
     Required : false
 Scaling:
-  Min: 2
+  Min: 1
   Max: 4
 Group-Overrides:
   - components:
